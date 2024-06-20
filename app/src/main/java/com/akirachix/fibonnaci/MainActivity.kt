@@ -36,11 +36,4 @@ class MainActivity : AppCompatActivity() {
 
 
 
-    fun fibonacci(n: Int): List<Int> {
-        val numbers = mutableListOf(0, 1)
-        while (numbers.size < n) {
-            numbers.add(numbers[numbers.lastIndex] + numbers[numbers.lastIndex - 1])
-        }
-        return numbers
-    }
 
